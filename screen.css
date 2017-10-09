@@ -20,6 +20,7 @@ html {
   font-family: sans-serif, "Times New Roman", Verdana;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   /* line-height: 1.222em; 22 / 18 = 1.2222222222 */
+  background-color: #ccccff;
 }
 
 body {
@@ -36,12 +37,13 @@ p {
 h1 {
   font-weight: bold;
   font-size: 2.334em; /* 24/18=1.334 */
-  padding-bottom: 1.5em;
+  padding-top: .222em;
+  padding-bottom: .25em;
   color: black
 }
 
 h2 {
-  padding-top: 1.5em;
+  padding-top: 1em;
   font-size: 1.5em; /* 18 / 16 = 1.125 */
   font-weight: bold;
   padding-bottom: 1.5em;
@@ -69,6 +71,7 @@ footer {
   font-weight: bold;
 }
 
+
 /* Responsive Media */
 img {
   display: block; 4
@@ -82,7 +85,29 @@ img {
   2. concerned with layout and spatial
      relationships
 */
+#navigation {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
 
+#navigation li {
+  float: left;
+  width: 33.3333333333%;
+}
+
+#navigation a {
+  display: block;
+  width: 100%;
+  line-height: 2em;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.611em;
+  text-align: center;
+  text-decoration: none; /* removes underlines */
+  color: black;
+  background-color: #66ffff;
+}
 
 /* Modular Styles */
 /*
