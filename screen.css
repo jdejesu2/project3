@@ -19,7 +19,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: sans-serif, "Times New Roman", Verdana;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
-  line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
+  /* line-height: 1.222em; 22 / 18 = 1.2222222222 */
 }
 
 body {
@@ -28,10 +28,50 @@ body {
   padding-left: 1.22em;
 }
 
+p {
+  padding-top: .222em;
+  padding-bottom: 1.222em;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.334em; /* 24/18=1.334 */
+  padding-bottom: 1.5em;
+  color: black
+}
+
+h2 {
+  padding-top: 1.5em;
+  font-size: 1.5em; /* 18 / 16 = 1.125 */
+  font-weight: bold;
+  padding-bottom: 1.5em;
+  color: gray
+}
+
+
+h3 {
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  padding-bottom: 1.5em;
+  color: gray
+}
+
+figcaption {
+  padding-top: .75em;
+  font-size: 0.885em;
+  font-weight: bold;
+}
+
+footer {
+  padding-top: 1.5em;
+  font-size: 1em;
+  text-align: right;
+  color: black;
+  font-weight: bold;
+}
 
 /* Responsive Media */
 img {
-  display: block;
+  display: block; 4
   max-width: 100%;
 }
 
