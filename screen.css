@@ -30,14 +30,17 @@ body {
 }
 
 p {
-  padding-top: .222em;
-  padding-bottom: 1.222em;
+  padding-top: .8em;
+  padding-bottom: 1.222em
+  font-size: 1.124em; /* 18 / 16 = 1.125 */
+  line-height: 1.556em;
+
 }
 
 h1 {
   font-weight: bold;
   font-size: 2.334em; /* 24/18=1.334 */
-  padding-top: .222em;
+  padding-top: .45em;
   padding-bottom: .25em;
   color: black
 }
@@ -58,13 +61,13 @@ h3 {
 }
 
 figcaption {
-  padding-top: .75em;
+  padding-top: 1em;
   font-size: 0.885em;
   font-weight: bold;
 }
 
 footer {
-  padding-top: 1.5em;
+  padding-top: 1em;
   font-size: 1em;
   text-align: right;
   color: black;
@@ -114,8 +117,8 @@ img {
   display: block;
   width: 100%;
   line-height: 2em;
-  padding-top: 0.611em; /* 11 / 18 = 0.611 */
-  padding-bottom: 0.611em;
+  padding-top: 0.8em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.8em;
   text-align: center;
   text-decoration: none; /* removes underlines */
   color: black;
