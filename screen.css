@@ -19,64 +19,63 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 html {
   font-family: sans-serif, "Times New Roman", Verdana;
   font-size: 1.125em; /* 18 / 16 = 1.125 */
-  /* line-height: 1.222em; 22 / 18 = 1.2222222222 */
+  line-height: 1.333em; /*  24 / 18 = 1.333 */
   background-color: #ccccff;
 }
 
 body {
   padding-top: 3.889em; /* 70/18 = 3.889 */
-  padding-right: 1.22em;
+  padding-right: 1.22em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.22em;
 }
 
-p {
-  padding-top: .8em;
-  padding-bottom: 1.222em
-  font-size: 1.124em; /* 18 / 16 = 1.125 */
-  line-height: 1.556em;
-
+h1,
+h2,
+h3,
+p, {
+  padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
 
 h1 {
+  font-size: 2.5em; /* 40 / 16 = 2.5 */
+  line-height: 1.75em ;/* 70 / 40 = 1.75 */
   font-weight: bold;
-  font-size: 2.334em; /* 24/18=1.334 */
-  padding-top: .45em;
-  padding-bottom: .25em;
   color: black
 }
 
 h2 {
-  padding-top: 1em;
-  font-size: 1.5em; /* 18 / 16 = 1.125 */
+  font-size: 1.875em; /* 30 /16 = 1.875 */
+  line-height: 2em ;/* 60 / 30 = 2 */
   font-weight: bold;
-  padding-bottom: 1em;
   color: gray
 }
 
 
 h3 {
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
-  padding-bottom: 1.5em;
+  font-size: 1.25em; /* 20 / 16 = 1.25 */
+  line-height: 2.5em ;/* 50 / 20 = 2.5 */
   color: gray
 }
 
 figcaption {
-  padding-top: 1em;
   font-size: 0.885em;
+  line-height: 2.5em ;/* 50 / 20 = 2.5 */
   font-weight: bold;
 }
 
 footer {
-  padding-top: 1em;
   font-size: 1em;
+  line-height: 2.5em;/* 50 / 20 = 2.5 */
   text-align: right;
+    font-weight: bold;
   color: black;
-  font-weight: bold;
 }
+
 li ul {
   padding-top: .611em;
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
   padding-bottom: .222em;
+  list-style-type: circle;
 }
 
 li {
@@ -88,9 +87,13 @@ ul {
   padding-bottom: 1.225em; /* 11 / 18 = 0.6111111 */
 }
 
+ul {
+  list-style-type: square;
+}
+
 /* Responsive Media */
 img {
-  display: block; 4
+  display: block;
   max-width: 100%;
 }
 
@@ -135,7 +138,11 @@ img {
       spacing, color, etc. etc.
 */
 
-
+#navigation ul,
+#navigation li {
+  list-style-type: none;
+  padding-bottom: 0;
+}
 
 /* State Styles */
 /*
