@@ -54,6 +54,7 @@ h2 {
 h3 {
   font-size: 1.25em; /* 20 / 16 = 1.25 */
   line-height: 2.5em ;/* 50 / 20 = 2.5 */
+  text-decoration: underline;
   color: gray
 }
 
@@ -153,3 +154,10 @@ img {
   2. Influenced by JavaScript
   3. Organized by Base, Layout, Module, State
 */
+
+@media screen and (min-width: 375px) {
+  body {
+    padding-right: 10.666667%; /* 40 / 375 = 10.666667% */
+    padding-left: 10.666667%; /* 40 / 375 = 10.666667% */
+  }
+}
