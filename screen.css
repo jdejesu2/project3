@@ -127,6 +127,7 @@ img {
   text-decoration: none; /* removes underlines */
   color: black;
   background-color: #66ffff;
+  border: 0.04em dotted black;
 }
 
 
