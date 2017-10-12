@@ -40,14 +40,14 @@ h1 {
   font-size: 2.5em; /* 40 / 16 = 2.5 */
   line-height: 1.75em ;/* 70 / 40 = 1.75 */
   font-weight: bold;
-  color: black
+  color: black;
 }
 
 h2 {
   font-size: 1.875em; /* 30 /16 = 1.875 */
   line-height: 2em ;/* 60 / 30 = 2 */
   font-weight: bold;
-  color: gray
+  color: gray;
 }
 
 
@@ -55,7 +55,7 @@ h3 {
   font-size: 1.25em; /* 20 / 16 = 1.25 */
   line-height: 2.5em ;/* 50 / 20 = 2.5 */
   text-decoration: underline;
-  color: gray
+  color: gray;
 }
 
 figcaption {
@@ -72,24 +72,22 @@ footer {
   color: black;
 }
 
+ul {
+  padding-top: 0.225em;
+  padding-bottom: 1.225em; /* 11 / 18 = 0.6111111 */
+  list-style-type: square;
+}
+
+
 li ul {
-  padding-top: .611em;
+  padding-top: 0.611em;
   padding-left: 1.222em; /* 22 / 18 = 1.2222222222 */
-  padding-bottom: .222em;
+  padding-bottom: 0.222em;
   list-style-type: circle;
 }
 
 li {
   padding-bottom: 0.222em; /* 11 / 18 = 0.6111111 */
-}
-
-ul {
-  padding-top: .225em;
-  padding-bottom: 1.225em; /* 11 / 18 = 0.6111111 */
-}
-
-ul {
-  list-style-type: square;
 }
 
 /* Responsive Media */
@@ -176,18 +174,18 @@ img {
 
 @media screen and (min-width: 860px) {
   body {
-      padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-      padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
-    }
+    padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+    padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
+  }
 
-    #interests {
+  #interests {
     width: 47%;
     float: left;
   }
-    #favepoem {
-      width: 46%;
-      margin-left: 7%;
-      float: left;
+  #favepoem {
+    width: 46%;
+    margin-left: 7%;
+    float: left;
   }
   #footer {
     clear: both;
@@ -201,5 +199,5 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    }
+  }
 }
