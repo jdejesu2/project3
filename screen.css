@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  padding-top: 72px; /* 72/16 = 4.5 */
+  padding-top: 3.667em; /* 66 / 18 = 3.667... */
   padding-right: 1.22em; /* 22 / 18 = 1.2222222222 */
   padding-left: 1.22em;
 }
@@ -123,6 +123,10 @@ img {
   text-decoration: none; /* removes underlines */
   color: black;
   background-color: #778f9b;
+}
+
+#navigation a:hover {
+  background-color: white;
 }
 
 
