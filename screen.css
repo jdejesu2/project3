@@ -60,6 +60,7 @@ h3 {
 figcaption {
   font-size: 0.885em;
   line-height: 2.5em ;/* 50 / 20 = 2.5 */
+  padding-bottom: .7em;
   font-weight: bold;
 }
 
