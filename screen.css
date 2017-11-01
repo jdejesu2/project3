@@ -145,8 +145,8 @@ img {
   padding-bottom: 0;
 }
 
-#favepoem ul,
-#favepoem li {
+#about #supporting ul,
+#about #supporting li {
   list-style-type: none;
   padding-bottom: 0;
 }
@@ -180,20 +180,20 @@ img {
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
 
-  #interests {
+  #about #primary {
     width: 47%;
     float: left;
   }
-  #favepoem {
+  #about #supporting {
     width: 46%;
-    margin-left: 7%;
+    margin-left: 6%;
     float: left;
   }
   #footer {
     clear: both;
   }
-  .flexbox #interests,
-  .flexbox #favepoem {
+  .flexbox #about #primary,
+  .flexbox #about #supporting {
     float: none;
     margin-left: 0;
   }
