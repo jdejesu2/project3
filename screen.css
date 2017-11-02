@@ -203,9 +203,17 @@ img.homepic {
     float: none;
     margin-left: 0;
   }
+
   #content {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+  }
+
+  #contentquote {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1.33333em;
+    padding-bottom: 1em;
   }
 }
