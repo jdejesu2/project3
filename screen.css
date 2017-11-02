@@ -91,10 +91,15 @@ li {
 }
 
 /* Responsive Media */
-img.center {
+img {
   display: inline-block;
   max-width: 100%;
 }
+
+img.homepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
 
 /* Layout Styles */
@@ -181,11 +186,6 @@ img.center {
     padding-right: 9.302325581%; /* 80 / 860 = 0.09302325581% */
     padding-left: 9.302325581%; /* 80 / 860 = 0.09302325581% */
   }
-
-  img.homepic {
-      display: block;
-      margin-left: auto;
-      margin-right: auto }
 
   #about #primary {
     width: 47%;
