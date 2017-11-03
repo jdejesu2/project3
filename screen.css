@@ -17,10 +17,10 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 html {
-  font-family: 'Tangerine', serif, "Times New Roman";
+  font-family: Tangerine, serif, "Times New Roman";
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
-  background-color: #eceff1;
+  background-color: #e1e3e4;
 }
 
 body {
@@ -53,14 +53,13 @@ h2 {
 h3 {
   font-size: 1.11em; /* 20 / 18 = 1.111111 */
   line-height: 2.5em ;/* 50 / 20 = 2.5 */
-  text-decoration: underline;
   color: gray;
 }
 
 figcaption {
   font-size: 0.885em;
   line-height: 2.5em ;/* 50 / 20 = 2.5 */
-  padding-bottom: .7em;
+  padding-bottom: 0.7em;
   font-weight: bold;
 }
 
@@ -97,10 +96,10 @@ img {
 }
 
 img.homepic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* Layout Styles */
 /*
