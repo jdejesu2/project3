@@ -229,5 +229,10 @@ img.homepic {
     grid-column-gap: 1.33333em;
     padding-bottom: 1em;
   }
+
+  #button {
+  cursor: pointer;
+}
+
 }
 }
