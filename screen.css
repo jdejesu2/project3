@@ -44,15 +44,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.667em; /* 30 /18 = 1.666666667 */
-  line-height: 2em ;/* 60 / 30 = 2 */
+  font-size: 1.48em; /* 30 /18 = 1.666666667   1.667-1.48=0.187*/
+  line-height: 2.187em ;/* 60 / 30 = 2 */
   font-weight: bold;
   color: gray;
 }
 
 h3 {
-  font-size: 1.11em; /* 20 / 18 = 1.111111 */
-  line-height: 2.5em ;/* 50 / 20 = 2.5 */
+  font-size: .987em; /* 20 / 18 = 1.111111--- 1.11-.987=.123 */
+  line-height: 2.623em ;/* 50 / 20 = 2.5 */
   color: gray;
 }
 
