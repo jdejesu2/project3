@@ -218,11 +218,8 @@ img.homepic {
   }
 }
   @media screen and (min-width: 1000px) {
-    html {
-  font-size: 2em; 
-  }
     body {
-        padding-right: 14%;
-        padding-left: 14%;
+        padding-right: 12%;
+        padding-left: 12%;
       }
 }
