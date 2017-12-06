@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="main">
+<html lang="en" id="main" class="nojs">
   <head>
     <title>About Me</title>
     <meta charset="UTF-8"/>
@@ -61,24 +61,48 @@
       <aside id="quoteone">
         <h3>Albert Einstein</h3>
         <p>
-          "Only two things are infinite, the universe and human stupidity, and I'm not sure about the former."
+          "Only two things are
+          <form>
+        <input type="button" value="infinite" id="noisedissolve" />
+        </form>
+        <audio id="dissolve" src="images/dissolve.mp3" controls>
+        infinite
+        </audio>
+          , the universe and human stupidity, and I'm not sure about the former."
         </p>
       </aside>
       <aside id="quotetwo">
         <h3>Vivian Greene</h3>
         <p>
-          "Life isn't about waiting for the storm to pass; it's about learning to dance in the rain."
+          "Life isn't about waiting for the
+          <form>
+          <input type="button" value="storm" id="noisestorm" />
+          </form>
+          <audio id="storm" src="images/storm.mp3" controls>
+          storm
+          </audio>
+          to pass; it's about learning to dance in the rain."
         </p>
       </aside>
       <aside id="quotethree">
         <h3>Anais Nin</h3>
         <p>
-          "How wrong it is for a woman to expect the man to build the world she wants, rather than to create it herself."
+          "How wrong it is for a woman to expect the man to
+          <form>
+          <input type="button" value="build" id="noisebuildup" />
+          </form>
+          <audio id="buildup" src="images/buildup.mp3" controls>
+          build
+          </audio>
+          the world she wants, rather than to create it herself."
         </p>
       </aside>
     </aside>
+
   <footer id="footer">
     <p> Page created by Jessica DeJesus</p>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="site.js"></script>
 </body>
 </html>
