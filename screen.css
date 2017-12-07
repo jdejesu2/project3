@@ -199,13 +199,8 @@ img.homepic {
   }
   #supporting {
     width: 46%;
-    margin-left: 6%;
+    margin-left: 7%;
     float: none;
-  }
-  #resume #supporting {
-    width: 46%;
-    margin-left: 6%;
-    float: left;
   }
 
   #footer {
