@@ -20,7 +20,7 @@ html {
   font-family: Avenir, serif, "Times New Roman";
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222em; /* 22 / 18 = 1.2222222222 */
-  background-color: #blue;
+  background-color: #e3e3e2;
 }
 
 body {
@@ -127,12 +127,12 @@ img.homepic {
   padding-bottom: 0.611em;
   text-align: center;
   text-decoration: none; /* removes underlines */
-  color: black;
-  background-color: #778f9b;
+  color: white;
+  background-color: black;
 }
 
 #navigation a:hover {
-  background-color: white;
+  background-color: gray;
 }
 
 
