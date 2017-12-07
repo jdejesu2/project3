@@ -194,12 +194,17 @@ img.homepic {
   }
 
   #primary {
-    width: 48%;
+    width: 47%;
     float: left;
   }
   #supporting {
-    width: 48%;
-    margin-left: 4%;
+    width: 46%;
+    margin-left: 6%;
+    float: none;
+  }
+  #resume #supporting {
+    width: 46%;
+    margin-left: 6%;
     float: left;
   }
 
@@ -208,7 +213,7 @@ img.homepic {
   }
   .flexbox #primary,
   .flexbox #supporting {
-    margin-left: 0;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
   }
